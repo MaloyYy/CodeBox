@@ -1,0 +1,5 @@
+time = int(input("Введите кол-во секунд: "))
+h = (time//3600)
+m = (time//60)
+c = (time%60)
+print(str(h)," часов",str(m)," минут",str(c)," секунд" )
